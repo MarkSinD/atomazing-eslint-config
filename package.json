@@ -1,8 +1,25 @@
 {
 	"name": "@atomazing/eslint-config",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"version": "1.0.3",
+	"type": "module",
+	"license": "MIT",
+	"author": "whoisYeshua",
+	"repository": {
+	"type": "git",
+	"url": "git+https://github.com/MarkSinD/atomazing-eslint-config"
+},
+	"bugs": {
+		"url": "https://github.com/MarkSinD/atomazing-eslint-config"
+	},
+	"homepage": "https://github.com/MarkSinD/atomazing-eslint-config",
+	"keywords": [
+		"eslint",
+		"atomazing"
+	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"scripts": {
 		"format": "npm run format:prettier",
 		"format:prettier": "npm run lint:prettier -- --write",
