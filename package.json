@@ -1,13 +1,13 @@
 {
 	"name": "@atomazing/eslint-config",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"type": "module",
 	"license": "MIT",
 	"author": "whoisYeshua",
 	"repository": {
-	"type": "git",
-	"url": "git+https://github.com/MarkSinD/atomazing-eslint-config"
-},
+		"type": "git",
+		"url": "git+https://github.com/MarkSinD/atomazing-eslint-config.git"
+	},
 	"bugs": {
 		"url": "https://github.com/MarkSinD/atomazing-eslint-config"
 	},
