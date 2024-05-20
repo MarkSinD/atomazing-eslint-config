@@ -1,7 +1,7 @@
 {
 	"name": "@atomazing/eslint-config",
 	"version": "1.0.5",
-	"type": "module",
+	"type": "commonjs",
 	"license": "MIT",
 	"author": "whoisYeshua",
 	"repository": {
