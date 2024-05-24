@@ -1,6 +1,6 @@
 {
 	"name": "@atomazing/eslint-config",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"type": "commonjs",
 	"license": "MIT",
 	"author": "whoisYeshua",
@@ -29,25 +29,25 @@
 		"debug:prettier": "prettier \"./index.js\" --loglevel debug"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "5.60.1",
-		"@typescript-eslint/parser": "5.60.1",
-		"eslint-config-airbnb-base": "15.0.0",
-		"eslint-config-airbnb-typescript": "17.1.0",
-		"eslint-config-prettier": "8.8.0",
-		"eslint-import-resolver-typescript": "3.5.5",
-		"eslint-plugin-eslint-comments": "3.2.0",
-		"eslint-plugin-import": "2.27.5",
-		"eslint-plugin-jsx-a11y": "6.7.1",
-		"eslint-plugin-react": "7.32.2",
-		"eslint-plugin-react-hooks": "4.6.0",
-		"eslint-plugin-react-refresh": "0.4.1",
-		"eslint-plugin-unicorn": "48.0.0"
+		"@typescript-eslint/eslint-plugin": "^7.10.0",
+		"@typescript-eslint/parser": "^7.10.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-airbnb-typescript": "^18.0.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-import-resolver-typescript": "^3.6.1",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-jsx-a11y": "^6.8.0",
+		"eslint-plugin-react": "^7.34.1",
+		"eslint-plugin-react-hooks": "^4.6.2",
+		"eslint-plugin-react-refresh": "^0.4.7",
+		"eslint-plugin-unicorn": "^53.0.0"
 	},
 	"devDependencies": {
-		"eslint": "8.44.0"
+		"eslint": "^8.56.0"
 	},
 	"peerDependencies": {
-		"eslint": "^7.32.0 || ^8.2.0"
+		"eslint": "^7.32.0 || ^8.56.0"
 	},
 	"eslintIgnore": [
 		"node_modules",
