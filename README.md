@@ -1,6 +1,3 @@
-# Connecting ESLint Rules for React:
-ESLint is a static code analysis tool that helps detect errors in JavaScript codes. It is particularly useful when working with the React library, as it allows automatically checking code against best practices and standards. In this article, we will discuss the process of connecting our own ESLint rules that were published in the npm repository @atomazing/eslint-config.
-
 # What is @atomaxing/eslint-config?
 @atomazing/eslint-config is a carefully curated set of ESLint rules aimed at optimizing the development process. Some rules have been excluded or modified in this set that could negatively affect developer convenience. For example, using export default has been prohibited to maintain a uniform style across the project, reducing the load on the developer. Additionally, some rules were moved from errors (error) to warnings (warn), allowing for more flexible management of the coding process without the strict need to fix every minor detail.
 
